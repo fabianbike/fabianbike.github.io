@@ -50,12 +50,28 @@ div.gallery {
       height:auto;
       background-color: white;
       padding: 20px; 
-      
+      padding-top: 5px;
+      font-family: sans-serif;
   }
+
+h3 {
+  font-size: 40px;
+  color: green;
+}
+
+h1 {
+  font-size: 50px;
+}
+
   img {
     vertical-align:middle;
     /*margin: 2px*/
   }
+
+img:hover {
+  border: 10px solid black;
+  padding: 0;
+}
 
 .half {
   width: 50%;
@@ -75,6 +91,13 @@ div.gallery {
   padding: 10px 0px 10px;
 }
 
+
 body {
   background-color: navy;
+}
+
+footer {
+  background-color: cornflowerblue;
+  padding: 10px;
+  margin-top: 10px;
 }
