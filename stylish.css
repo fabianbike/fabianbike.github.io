@@ -46,11 +46,11 @@ div.gallery {
   }
   .center {
       margin: auto;
-      width: 50%;
+      width: 60%;
       height:auto;
       background-color: white;
-      /*border: 3px solid blue; */
-      padding: 10px; 
+      padding: 20px; 
+      
   }
   img {
     vertical-align:middle;
@@ -58,15 +58,21 @@ div.gallery {
   }
 
 .half {
-  width: 49%;
-  padding: 1%;
+  width: 50%;
+  padding-right: 10px;
   display: inline-block;  
+}
+
+.right {
+  float: right;
+  padding-right: 0px;
+  padding-left: 10px;
 }
 
 .row {
   width: 100%;
   display: inline-block;
-  padding: 0;
+  padding: 10px 0px 10px;
 }
 
 body {
